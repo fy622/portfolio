@@ -38,3 +38,6 @@
 * 史跡お気に入り登録
 * 史跡検索
 * 史跡口コミ機能
+
+## 画面遷移図
+https://www.figma.com/design/e5HKXaWGZGxZDDmHti3Ddu/UI?node-id=0-1&t=KQfgGOsnPMbzx7Z9-1
