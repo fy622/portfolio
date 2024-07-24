@@ -41,3 +41,6 @@
 
 ## 画面遷移図
 https://www.figma.com/design/e5HKXaWGZGxZDDmHti3Ddu/UI?node-id=0-1&t=KQfgGOsnPMbzx7Z9-1
+
+## ER図
+https://drive.google.com/file/d/1qaJ8DCzQlqyWeERhtEE-XJH45tR62YKZ/view?usp=sharing
