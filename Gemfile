@@ -47,6 +47,8 @@ gem "bootsnap", require: false
 # Authentication
 gem 'sorcery'
 
+gem 'dartsass-rails'
+
 # Frontend and design
 gem 'bootstrap', '~> 5.1'
 
