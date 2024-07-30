@@ -1,2 +1,21 @@
-<h1>Home#top</h1>
-<p>Find me in app/views/home/top.html.erb</p>
+<h1>歴史散歩道へようこそ！</h1>
+<p>歴史散歩道は、見落としがちな史跡を巡る散歩ルート生成サービスです</p>
+
+<h2>ルートを生成してみる</h2>
+<%= form_with model: @route, url: routes_path do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  <div class="field">
+    <%= form.label :distance %>
+    <%= form.text_field :distance %>
+  </div>
+  <div class="field">
+    <%= form.label :time %>
+    <%= form.text_field :time %>
+  </div>
+  <div class="actions">
+    <%= form.submit 'Create Route' %>
+  </div>
+<% end %>
