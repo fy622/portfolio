@@ -3,4 +3,137 @@
  *= require_self
  */
 
+@import "bootstrap";
 @import 'top';
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px; // モバイル用のデフォルトスタイル
+  }
+  
+  /* タブレット用のスタイル */
+  @media (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* デスクトップ用のスタイル */
+  @media (min-width: 992px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5; /* 背景色 */
+}
+
+header {
+    background-color: #557b83; /* ヘッダーの背景色 */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+main {
+    flex: 1;
+    padding: 60px 20px 80px; /* ヘッダーとフッターのスペースを確保 */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff; /* メインコンテンツの背景色 */
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333; /* ラベルの色 */
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black; /* ボタンの色 */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.contact-footer {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact-link a {
+    color: #557b83; /* リンクの色 */
+    text-decoration: none;
+}
+
+.fixed-footer {
+    background-color: #557b83; /* フッターの背景色 */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logout-icon, .home-icon, .profile-icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    background-color: white; /* アイコン背景色 */
+    color: #557b83; /* アイコン色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #557b83;
+    box-sizing: border-box;
+}
