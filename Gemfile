@@ -50,7 +50,7 @@ gem 'sorcery'
 gem 'dartsass-rails'
 
 # Frontend and design
-gem 'bootstrap', '~> 5.1'
+gem 'bootstrap-sass'
 
 # Environment variable management
 gem 'dotenv-rails', groups: [:development, :test]
